@@ -11,6 +11,12 @@ ConCert can find real-world attacks as explained
 [here](https://medium.com/blockchain-academy-network/preventing-an-8m-attack-on-ethereums-bzx-defi-platform-with-property-based-testing-12234d9479b7), and
 [here](https://medium.com/@bawspitters/using-formal-methods-to-prevent-creating-money-out-of-thin-air-5f30057fe3d3).
 
+## Positive Security conribution
+
+The [PTUtils](execution/theories/PTUtils.v) theory is a module containing useful theorems and definitions from our experience of smart contract verification in Concert.
+
+The [dexAMM](examples/dexAMM/) folder contains verified implementations of the DEX/AMM smart contract(Solidity).
+
 ## How to build
 
 Our development works with Coq 8.17 and depends on MetaCoq, and std++.

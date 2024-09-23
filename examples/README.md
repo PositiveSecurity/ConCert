@@ -4,6 +4,10 @@ This subproject contains examples of smart contract implementations along with p
 correctness and safety, property-based testing and code extraction.
 Each example is described below.
 
+## DEX/AMM
+In [dexAMM](../examples/dexAMM/dexAMM.v) Positive Security team provides an implementation of the automated market maker Solidity smart contract with the flaws fixed (these flaws were found during verification in ConCert).
+Also [we have proved](../examples/dexAMM/dexAMMCorrect.v) some correctness properties of this implementation.
+
 ## Basic Attention Token
 The Basic Attention Token smart contract is an Ethereum smart contract used by the Brave browser.
 This example includes a port of the contract in ConCert along with property-based testing showing
